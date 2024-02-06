@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="Main-Section">
+        <div class="Content-Wrappper">
+            <div class="Timer-Mistakes">
+                <h4 class="Timer" id="Timer">Time : <span></span></h4>
+                <h4 class="Mistakes" id="Mistakes">Mistakes : <span></span></h4>
+            </div>
+            <div class="Test-String" id="Test-String"></div>
+            <textarea disabled class="Text-Box" id="Text-Box" placeholder="Type Here When Test Starts..."></textarea>
+
+            
+            <button id="Action" class="Action" onclick="Start_Test()">Start Test</button>
+            <div class="Results">
+                <h2>Final Result</h2>
+                <span class="Result_Mistakes" id="Mistakes">Mistakes : <span></span></span>
+                <br>
+                <span class="WPM" id="WPM">Words Per Minute : <span></span></span>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js" >
+    </script>
+</body>
+</html>
